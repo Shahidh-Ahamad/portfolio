@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    // list-style: none;
+    background-color:rgb(84, 86, 85) ;  
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-left: 20%;
+    text-align: center;
+    margin-top: 15px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+ ul li a{
+    list-style: none;
+    padding: 25px;
+    text-align: center;
+    font-size: larger;
+}
+li a:hover{
+    color: rgb(4, 4, 4);    
+}
+
